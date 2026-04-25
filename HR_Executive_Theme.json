@@ -1,0 +1,35 @@
+{
+"name": "HR Executive Theme",
+"dataColors": [
+"#1E3A8A",
+"#0EA5A4",
+"#7C3AED",
+"#F59E0B",
+"#64748B",
+"#14B8A6",
+"#9333EA"
+],
+"background": "#F9FAFB",
+"foreground": "#111827",
+"tableAccent": "#1E3A8A",
+"visualStyles": {
+"*": {
+"*": {
+"title": [{
+"show": true,
+"fontSize": 14,
+"fontFamily": "Segoe UI Semibold",
+"color": "#111827"
+}],
+"labels": [{
+"color": "#374151"
+}],
+"background": [{
+"show": true,
+"color": "#FFFFFF",
+"transparency": 0
+}]
+}
+}
+}
+}
