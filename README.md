@@ -53,9 +53,8 @@ The goal is to help HR teams identify employees who are likely to leave and take
 
 Employee-Attrition-Prediction/
 │
-├── app.py
+├── main.py
 ├── attrition\_model.pkl
-├── encoder.pkl
 ├── requirements.txt
 ├── README.md
 │
