@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Prediction Result</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+
+<div class="container">
+
+    <h1>Prediction Result</h1>
+
+    <div class="result-box">
+        <h2>{{ percent }}%</h2>
+        <p>Attrition Probability</p>
+        <h3 class="risk {{ risk|lower|replace(' ', '-') }}">{{ risk }}</h3>
+    </div>
+
+    <div class="card">
+        <h3>Key Reasons</h3>
+        <ul>
+            {% for r in reasons %}
+                <li>{{ r }}</li>
+            {% endfor %}
+        </ul>
+    </div>
+
+    <div class="card">
+        <h3>Recommended Actions</h3>
+        <ul>
+            {% for s in solutions %}
+                <li>{{ s }}</li>
+            {% endfor %}
+        </ul>
+    </div>
+
+    <a href="/" class="btn">Try Again</a>
+
+</div>
+
+</body>
+</html>
